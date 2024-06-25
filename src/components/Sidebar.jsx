@@ -67,11 +67,11 @@ function Sidebar() {
                 to={link.path}
                 className={({
                   isActive,
-                }) => `transition-all w-[50px] h-[50px] rounded-lg flex 
+                }) => `transition-all w-[50px] h-[50px] rounded-[10px] flex 
         items-center justify-center border ${
-          isActive ? "bg-zinc-400/50 border-none" : ""
+          isActive ? "bg-zinc-400/20 border-none" : ""
         } border-zinc-500/30
-        hover:border-none hover:bg-zinc-400/40`}
+        hover:border-none hover:bg-zinc-400/20`}
               >
                 {({ isActive }) => (
                   <link.icon

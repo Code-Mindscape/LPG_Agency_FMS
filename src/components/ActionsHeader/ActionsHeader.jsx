@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from "@/components/ui/button"
+
 
 export default function ActionsHeader({tabName, ...props}) {
   return (
@@ -7,7 +9,7 @@ export default function ActionsHeader({tabName, ...props}) {
           <h3 className='font-bold text-zinc-800 text-xl'>{tabName}</h3>
       </div>
       <div className="actionsBtn w-[80%] flex items-center justify-center">
-          
+      <Button>Shadcn Button</Button>
       </div>
     </div>
   )

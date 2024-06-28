@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import ActionsHeader from '../ActionsHeader/ActionsHeader';
-import { TableDemo } from '../UsersTable';
+import { TableDemo } from '../tables/UsersTable';
 import UserDetailsBox from '../UserDetailsBox';
 
 export default function Users() {
@@ -10,7 +10,7 @@ export default function Users() {
       <div className="users w-full h-screen flex flex-col">
         <Navbar />
         <div className="mainContent flex-grow w-full bg-zinc-300 flex flex-col">
-          <ActionsHeader tabName={"All Users"} />
+          <ActionsHeader searchText={"Users"} tabName={"All Users"} />
           <div className="main w-full bg-white flex items-center justify-center flex-grow">
             <div className="accounts  h-full flex items-start justify-start flex-grow max-w-[70%]">
               <div className="wrapper overflow-y-auto max-h-[500px] w-full">

@@ -9,7 +9,7 @@ import {
     TableRow,
   } from "@/components/ui/table"
   import { PencilLine } from 'lucide-react';
-  import { Button } from "./ui/button";
+  import { Button } from "../ui/button";
   import { Trash } from 'lucide-react';
 
   const users = [
@@ -33,13 +33,6 @@ import {
         username: "Waqar",
         loginKey: "4628734623",
         role: "editor"
-    },
-    {
-        avatar: "",
-        Owner: "Mahnoor ",
-        username: "mahnoor",
-        loginKey: "4628734623",
-        role: "updator"
     },
   ]
   

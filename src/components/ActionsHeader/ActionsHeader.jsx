@@ -17,7 +17,7 @@ export default function ActionsHeader({tabName, ...props}) {
       <div className="actionsBtn w-[80%] flex items-center justify-end">
         <div className="actions flex items-center justify-center gap-8 px-10 h-full">
         <div className="searchButtons  w-[70%] flex items-center justify-center gap-3">
-        <InputWithButton/>
+        <InputWithButton searchText={props.searchText}/>
         </div>
         <div className="buttons w-[40%] flex items-center justify-center gap-3">
         <Button variant="outline">

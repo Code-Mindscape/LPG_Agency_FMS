@@ -23,7 +23,7 @@ function Sidebar() {
     },
     {
       id: 3,
-      path: "/inventory",
+      path: "/inventory/stock",
       icon: MdInventory,
     },
     {

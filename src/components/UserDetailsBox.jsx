@@ -13,10 +13,9 @@ function UserDetailsBox() {
             <h1>Role</h1>
         </div>
         </div>
-        <div className="UserEntries w-full gap-4 h-[65%] flex items-start justify-start px-10">
+        <div className="UserEntries w-full gap-4 h-[55%] flex items-start justify-start px-10">
         <div className="text w-full h-[140px] flex flex-col gap-3 px-6">
             <h1>Total entries: 110 </h1>
-
         </div>
 
         </div>
